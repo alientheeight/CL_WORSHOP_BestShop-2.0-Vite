@@ -1,13 +1,75 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
+          rel="stylesheet"
+  />
+  <title>BestShop RWD Vite</title>
+</head>
+
+<body>
+<!--  Header: Logo + Menu-->
+<header class="header">
+  <div class="header__container container">
+    <a href="#" class="header__logo">BestShop</a>
+    <nav>
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="#why-us">Why Us</a></li>
+        <li class="header__menu-item"><a href="#benefits">Benefits</a></li>
+        <li class="header__menu-item"><a href="#prices">Prices</a></li>
+        <li class="header__menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!--    Hero section-->
+  <section class="hero">
+    <h1 class="hero__title">Sell More!</h1>
+    <p class="hero__motto">
+      Open shop on our platform and increase your sales
+    </p>
+    <a href="#" class="hero__button button"> Open your shop </a>
+    <img
+            src="/assets/background.png"
+            class="hero__bg-image"
+            alt="Widok z góry na Macbooka z dłońmi na klawiaturze, po lewej klendarz z długopisem i bileciki okazjonalne, po prawej iphone, filiżanka kawy i notes z długopisem"
+    />
+  </section>
+</main>
+
+<!--  Footer-->
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__left-part">
+      <a href="#" class="footer__logo-small">BestShop</a>
+      <div class="footer__copyright">
+        &copy; 2019 BestShop LTD, All Rights Reserved
+      </div>
+    </div>
+    <div class="footer__right-part">
+      <a href="https://twitter.com">
+        <img
+                src="assets/twitter.svg"
+                alt="Twitter link"
+                class="footer__social"
+        /></a>
+      <a href="https://facebook.com"
+      ><img
+              src="assets/facebook.svg"
+              alt="Facebook link"
+              class="footer__social"
+      /></a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/main.js"></script>
+</body>
 </html>
